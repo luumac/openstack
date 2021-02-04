@@ -75,7 +75,7 @@ sơ đồ và cấu hình **1 node ALL IN ONE**
              
 - Clone git
 
-            git clone https://github.com/letran3691/openstack.git             
+            git clone https://github.com/luumac/openstack.git             
 
 - Phân quyền file 
             
@@ -246,7 +246,7 @@ Sơ đồ LAB 3 **NODE CONTROLL - COMPUTE - STORAGE(LVM backend)**
              
 - Clone git
 
-            git clone https://github.com/letran3691/openstack.git             
+            git clone https://github.com/luumac/openstack.git             
 
 - Phân quyền file 
             
@@ -289,7 +289,7 @@ Sơ đồ LAB 3 **NODE CONTROLL - COMPUTE - STORAGE(NFS backend)**
              
 - Clone git
 
-            git clone https://github.com/letran3691/openstack.git             
+            git clone https://github.com/luumac/openstack.git             
 
 - Phân quyền file 
             
@@ -344,7 +344,7 @@ Sơ đồ LAB 3 **NODE CONTROLL - COMPUTE - STORAGE(Multi backend)**
              
 - Clone git
 
-            git clone https://github.com/letran3691/openstack.git             
+            git clone https://github.com/luumac/openstack.git             
 
 - Phân quyền file 
             
@@ -390,7 +390,7 @@ _**CHÚ Ý: RAM CỦA BẠN NÀO HƠN 12G THÌ HÃY THỰC HIỆN LAB NÀY**_
              
 - Clone git
 
-            git clone https://github.com/letran3691/openstack.git             
+            git clone https://github.com/luumac/openstack.git             
 
 - Phân quyền file 
             
@@ -567,4 +567,4 @@ author: Trunglv
 
 
 ### <a name="V"><a/>**V: HỖ TRỢ**
-#### Liên hệ: <a href="https://www.facebook.com/trunglv.91" rel="nofollow">Facebook<a>.
+#### Liên hệ: <a href="https://www.facebook.com/luudinhmac" rel="nofollow">Facebook<a>.
