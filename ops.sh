@@ -157,10 +157,10 @@ source keystonerc && openstack endpoint create --region RegionOne image public h
 source keystonerc && openstack endpoint create --region RegionOne image internal http://$controller:9292
 source keystonerc && openstack endpoint create --region RegionOne image admin http://$controller:9292
 
-mysql -uroot p$rootsql -e "create database glance;"
-mysql -uroot p$rootsql -e "grant all privileges on glance.* to glance@'localhost' identified by '"$pass_user_sql"';"
-mysql -uroot p$rootsql -e "grant all privileges on glance.* to glance@'%' identified by '"$pass_user_sql"';"
-mysql -uroot p$rootsql -e "flush privileges;"
+mysql -uroot -p$rootsql -e "create database glance;"
+mysql -uroot -p$rootsql -e "grant all privileges on glance.* to glance@'localhost' identified by '"$pass_user_sql"';"
+mysql -uroot -p$rootsql -e "grant all privileges on glance.* to glance@'%' identified by '"$pass_user_sql"';"
+mysql -uroot -p$rootsql -e "flush privileges;"
 
 printf "======================================Install glance=============================================\n"
 sleep 2
